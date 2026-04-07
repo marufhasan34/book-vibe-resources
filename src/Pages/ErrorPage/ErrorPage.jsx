@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const ErrorPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 px-4">
+    <div className="min-h-screen flex items-center justify-center">
       <div className="bg-white shadow-2xl rounded-3xl p-10 max-w-md text-center">
         
         {/* Error Code */}
@@ -17,7 +17,7 @@ const ErrorPage = () => {
 
         {/* Description */}
         <p className="text-gray-500 mb-6">
-          The page you are looking for doesn’t exist or has been moved.
+          The page you are looking for does not exist or has been moved.
         </p>
 
         {/* Button */}
